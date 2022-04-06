@@ -9,7 +9,7 @@ igv==0.9.6
 jupyter==1.0.0
 matplotlib
 networkx
-notebook==6.1.5
+notebook==6.4.10
 numpy==1.16.4
 pandas==0.24.2
 pysam==0.15.3
