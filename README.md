@@ -355,6 +355,17 @@ results/     <- saved into google drive (link: )
 	- Andrew's presentation
 - Neekesh's code to create the first CRC list
 
+## last version of the cobinding matrix preprocessing notebook
+
+For this version I wanted to change the initial notebook (please see previous commits from mid-2021 to see the previous ones).
+
+The goal of this new version is mainly to change how the merging of each chipseq is done. The replicate merging stays the same function but a different set of badquality samples. But for merging all into the cobinding matrix, instead of just doing an merge if >N peak overlaps, I wanted to do something more complex.
+
+Here I used mainly the scATACseq to define open regions. postulating that any peaks outside of ATAC peak is a False Positive except if multiple TFs have peaks defined there.
+
+Moreover, knowing that ATACseq is more precise than ChIPseq, we are using the ATAC peak location as the base, not extending them if a ChIP peak falls outside.
+
+It seems that this did not dramatically changed the results but I did not have the time to run all the analysis and thus do not know for sure (see cobinding_v4)
 
 ## TODO:
 

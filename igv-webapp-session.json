@@ -1,0 +1,552 @@
+{
+	"version": "2.10.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "hg38",
+		"name": "Human (GRCh38/hg38)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/annotations/cytoBandIdeo.txt.gz",
+		"aliasURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/hg38_alias.tab",
+		"chromosomeOrder": "chr1, chr2, chr3, chr4, chr5, chr6, chr7, chr8, chr9, chr10, chr11, chr12, chr13, chr14, chr15, chr16, chr17, chr18, chr19, chr20, chr21, chr22, chrX, chrY"
+	},
+	"locus": "chr1:6,352,858-6,517,954",
+	"tracks": [
+		{
+			"url": "gs://amlproject/merged/human_epdnew_l3zqX.bed",
+			"name": "human_epdnew_l3zqX.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 68
+		},
+		{
+			"type": "sequence",
+			"order": 1000004
+		},
+		{
+			"name": "Refseq Genes",
+			"format": "refgene",
+			"url": "https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz",
+			"indexURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz.tbi",
+			"visibilityWindow": -1,
+			"removable": false,
+			"order": 1000005,
+			"infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+			"type": "annotation"
+		},
+		{
+			"url": "gs://amlproject/merged/ATAC.bed",
+			"name": "ATAC.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000006
+		},
+		{
+			"url": "gs://amlproject/merged/POLII.bed",
+			"name": "POLII.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000389
+		},
+		{
+			"url": "gs://amlproject/merged/SMC1.bed",
+			"name": "SMC1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000399
+		},
+		{
+			"url": "gs://amlproject/merged/CTCF.bed",
+			"name": "CTCF.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000400
+		},
+		{
+			"url": "gs://amlproject/merged/H3K9ac.bed",
+			"name": "H3K9ac.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000401
+		},
+		{
+			"url": "gs://amlproject/merged/superenhancer.bed",
+			"name": "superenhancer.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000402
+		},
+		{
+			"url": "gs://amlproject/merged/H3K27ac.bed",
+			"name": "H3K27ac.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000403
+		},
+		{
+			"url": "gs://amlproject/merged/H3K36me3.bed",
+			"name": "H3K36me3.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000404
+		},
+		{
+			"url": "gs://amlproject/merged/H3K36me2.bed",
+			"name": "H3K36me2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000405
+		},
+		{
+			"url": "gs://amlproject/merged/H3K27me3.bed",
+			"name": "H3K27me3.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000406
+		},
+		{
+			"url": "gs://amlproject/merged/H3K4me3.bed",
+			"name": "H3K4me3.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000407
+		},
+		{
+			"url": "gs://amlproject/merged/H3K79me2.bed",
+			"name": "H3K79me2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000408
+		},
+		{
+			"url": "gs://amlproject/merged/H3K4me1.bed",
+			"name": "H3K4me1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000409
+		},
+		{
+			"url": "gs://amlproject/temp/mp136-MV411-H3K27ac_R1_peaks_Enhancers_withSuper.bed",
+			"name": "mp136-MV411-H3K27ac_R1_peaks_Enhancers_withSuper.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"color": "rgb(0,0,0)",
+			"order": 1000410
+		},
+		{
+			"url": "gs://amlproject/merged/MEF2C.bed",
+			"name": "MEF2C.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000413
+		},
+		{
+			"url": "gs://amlproject/merged/BRD4.bed",
+			"name": "BRD4.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000414
+		},
+		{
+			"url": "gs://amlproject/merged/AFF4.bed",
+			"name": "AFF4.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000415
+		},
+		{
+			"url": "gs://amlproject/merged/HEX.bed",
+			"name": "HEX.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000416
+		},
+		{
+			"url": "gs://amlproject/merged/FLAG_MEF2C.bed",
+			"name": "FLAG_MEF2C.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000417
+		},
+		{
+			"url": "gs://amlproject/merged/CDK13.bed",
+			"name": "CDK13.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000418
+		},
+		{
+			"url": "gs://amlproject/merged/FLAG_MEF2D.bed",
+			"name": "FLAG_MEF2D.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000419
+		},
+		{
+			"url": "gs://amlproject/merged/SPI1.bed",
+			"name": "SPI1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000420
+		},
+		{
+			"url": "gs://amlproject/merged/MYB.bed",
+			"name": "MYB.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000421
+		},
+		{
+			"url": "gs://amlproject/merged/CDK9.bed",
+			"name": "CDK9.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000422
+		},
+		{
+			"url": "gs://amlproject/merged/SP1.bed",
+			"name": "SP1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000423
+		},
+		{
+			"url": "gs://amlproject/merged/SREBF1.bed",
+			"name": "SREBF1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000424
+		},
+		{
+			"url": "gs://amlproject/merged/MEIS1.bed",
+			"name": "MEIS1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000425
+		},
+		{
+			"url": "gs://amlproject/merged/MLL_KTM2A.bed",
+			"name": "MLL_KTM2A.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000426
+		},
+		{
+			"url": "gs://amlproject/merged/HOXA9.bed",
+			"name": "HOXA9.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000427
+		},
+		{
+			"url": "gs://amlproject/merged/STAT5B.bed",
+			"name": "STAT5B.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000428
+		},
+		{
+			"url": "gs://amlproject/merged/MYBL2.bed",
+			"name": "MYBL2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000429
+		},
+		{
+			"url": "gs://amlproject/merged/CEBPA.bed",
+			"name": "CEBPA.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000430
+		},
+		{
+			"url": "gs://amlproject/merged/FOSL2.bed",
+			"name": "FOSL2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000431
+		},
+		{
+			"url": "gs://amlproject/merged/GATA2.bed",
+			"name": "GATA2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000432
+		},
+		{
+			"url": "gs://amlproject/merged/TFAP4.bed",
+			"name": "TFAP4.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000433
+		},
+		{
+			"url": "gs://amlproject/merged/IKZF1.bed",
+			"name": "IKZF1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000434
+		},
+		{
+			"url": "gs://amlproject/merged/FLI1.bed",
+			"name": "FLI1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000435
+		},
+		{
+			"url": "gs://amlproject/merged/CEBPB.bed",
+			"name": "CEBPB.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000436
+		},
+		{
+			"url": "gs://amlproject/merged/ZEB2.bed",
+			"name": "ZEB2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000437
+		},
+		{
+			"url": "gs://amlproject/merged/WDR5.bed",
+			"name": "WDR5.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000438
+		},
+		{
+			"url": "gs://amlproject/merged/FOXP1.bed",
+			"name": "FOXP1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000439
+		},
+		{
+			"url": "gs://amlproject/merged/E2F3.bed",
+			"name": "E2F3.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000440
+		},
+		{
+			"url": "gs://amlproject/merged/PLAGL2.bed",
+			"name": "PLAGL2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000441
+		},
+		{
+			"url": "gs://amlproject/merged/MYC.bed",
+			"name": "MYC.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000442
+		},
+		{
+			"url": "gs://amlproject/merged/MAX.bed",
+			"name": "MAX.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000443
+		},
+		{
+			"url": "gs://amlproject/merged/JUND.bed",
+			"name": "JUND.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000444
+		},
+		{
+			"url": "gs://amlproject/merged/IRF8.bed",
+			"name": "IRF8.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000445
+		},
+		{
+			"url": "gs://amlproject/merged/GFI1.bed",
+			"name": "GFI1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000446
+		},
+		{
+			"url": "gs://amlproject/merged/LDB1.bed",
+			"name": "LDB1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000447
+		},
+		{
+			"url": "gs://amlproject/merged/ZMYND8.bed",
+			"name": "ZMYND8.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000448
+		},
+		{
+			"url": "gs://amlproject/merged/PSER2.bed",
+			"name": "PSER2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000449
+		},
+		{
+			"url": "gs://amlproject/merged/ELF2.bed",
+			"name": "ELF2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000450
+		},
+		{
+			"url": "gs://amlproject/merged/ZNF281.bed",
+			"name": "ZNF281.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000451
+		},
+		{
+			"url": "gs://amlproject/merged/LMO2.bed",
+			"name": "LMO2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000452
+		},
+		{
+			"url": "gs://amlproject/merged/FLAF_MEF2D.bed",
+			"name": "FLAF_MEF2D.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000453
+		},
+		{
+			"url": "gs://amlproject/merged/ETV6.bed",
+			"name": "ETV6.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000454
+		},
+		{
+			"url": "gs://amlproject/merged/RARA.bed",
+			"name": "RARA.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000455
+		},
+		{
+			"url": "gs://amlproject/merged/LYL1.bed",
+			"name": "LYL1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000456
+		},
+		{
+			"url": "gs://amlproject/merged/FLAG_GFI1.bed",
+			"name": "FLAG_GFI1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000457
+		},
+		{
+			"url": "gs://amlproject/merged/RUNX1.bed",
+			"name": "RUNX1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000458
+		},
+		{
+			"url": "gs://amlproject/merged/FLAG_IRF2BP2.bed",
+			"name": "FLAG_IRF2BP2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000459
+		},
+		{
+			"url": "gs://amlproject/merged/MED1.bed",
+			"name": "MED1.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000460
+		},
+		{
+			"url": "gs://amlproject/merged/RUNX2.bed",
+			"name": "RUNX2.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000461
+		},
+		{
+			"url": "gs://amlproject/merged/RXRA.bed",
+			"name": "RXRA.bed",
+			"derivedName": true,
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000462
+		}
+	]
+}
